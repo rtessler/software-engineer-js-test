@@ -1,0 +1,45 @@
+body {
+  font-family: Helvetica, Verdana, sans-serif;
+  line-height: 1.5em;
+  height: 100%;
+}
+
+#imageContainer,
+#debugContainer {
+  //padding: 1em;
+  margin: 1em;
+  box-sizing: border-box;
+}
+
+#imageContainer {
+
+  overflow: hidden;
+}
+
+.column {
+  width: 48%;
+  margin: .5%;
+  border: 1px solid #000;
+  vertical-align: top;
+
+  &.left {
+    float: left;
+  }
+  &.right {
+    float: right;
+  }
+}
+
+#imageContainer {
+  img {
+    width: 100%;    
+    position: relative;
+  }
+}
+
+#debugContainer {
+  p {
+    margin: 0;
+    padding: 0;
+  }
+}
